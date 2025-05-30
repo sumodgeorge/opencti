@@ -6,3 +6,6 @@ jsonpatch==1.33
 eql==0.9.19
 opentelemetry-api==1.32.1
 opentelemetry-sdk==1.32.1
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
